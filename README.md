@@ -36,7 +36,7 @@ If forking this template, feel free to change your new repository's name to matc
 - While testing, we also recommend to modify proprietary functions such as [`get_vcpu()`](/script.py#L7), since they only work on Datoma's infrastructure.
 
 ## How to test?
-1. Inside this template's folder, execute the command `docker build -t toolname`
+1. Inside this template's folder, execute the command `docker build -t toolname .`
 2. Then, run `docker run --rm toolname`
     - Alternatively, you can run `docker run --rm -it --entrypoint="bash" toolname` to run the container interactively.
 3. If you have any issue while in this process, you can contact us: `contact` at `datoma.cloud`
